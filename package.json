@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript-webpack",
+  "name": "react-ts-webpack-starter",
   "version": "1.0.0",
   "description": "A very simple starter project for using React,TypeScript and Webpack.",
   "scripts": {
@@ -11,7 +11,7 @@
     "typescript",
     "webpack"
   ],
-  "author": "Grant Bartlett",
+  "author": "Ejaz Hussain",
   "license": "MIT",
   "dependencies": {
     "react": "^16.7.0",
@@ -28,7 +28,6 @@
     "sass-loader": "^7.1.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
-    "terser": "^3.14.1",
     "typescript": "^3.3.1",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",

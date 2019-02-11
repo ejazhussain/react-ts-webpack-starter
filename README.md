@@ -32,7 +32,7 @@ npm run dev
 #### Production
 You can run `webpack --mode production` or the below using our npm scripts.
 ```
-npm run build
+npm run prod
 ```
 
 ## Built With
@@ -46,6 +46,9 @@ npm run build
 
 #### Webpack Plugins
 * [HTML Webpack Plugin](https://github.com/jantimon/html-webpack-plugin) - Simplifies creation of HTML files to serve our webpack bundles.
+* [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) - This plugin extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
+
+
 
 ## License
 
@@ -55,6 +58,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * [Saurabh Pati](https://hackernoon.com/react-with-typescript-and-webpack-654f93f34db6) - for his detailed tutorial on setting up React & TypeScript with Webpack
 
-## Additional Notes
-* [Terser](https://github.com/terser-js/terser/) - used by Webpack for compiling for production recently rolled out a breaking change. 
-As a temporary workaround, I've installed an earlier version of `"terser": "^3.14.1"` as this works.  [Read more](https://github.com/terser-js/terser/issues/252) on the issue here.
